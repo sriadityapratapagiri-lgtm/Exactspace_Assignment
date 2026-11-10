@@ -1,0 +1,13 @@
+{
+    "name": "puppeteer-scraper",
+    "version": "1.0.0",
+    "description": "Scrapes a URL with pupperteer and writes scraped_data.json" ,
+    "main" : "scrape.js",
+    "scripts" : {
+        "scrape" : "node scrape.js"
+    },
+    "dependencies": {
+        "puppeteer": "^22.15.0"
+    }
+
+}
